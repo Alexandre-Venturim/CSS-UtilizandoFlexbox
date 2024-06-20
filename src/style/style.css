@@ -6,3 +6,54 @@
     font: inherit;
     vertical-align: baseline;
 }
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+    width: 100%;
+    box-shadow: 0 0 5px 0 gainsboro;
+}
+
+.divNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1366px;
+    padding: 30px;
+}
+
+ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    border-bottom: 1px solid transparent;
+}
+
+nav ul li a:hover {
+    color: #4C6EF5;
+    border-bottom: 1px solid #4C6EF5;
+}
+
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #4C6EF5;
+}
